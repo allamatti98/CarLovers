@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 
 const Category = () => {
   const [cat, setCat] = useState([]);
-
   useEffect(() => {
     const fetchData = async () => {
       try {
